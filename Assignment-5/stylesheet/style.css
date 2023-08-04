@@ -1,0 +1,350 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ---This is navbar--- */
+
+.navbar {
+    width: 100%;
+    height: 3.5rem;
+    padding: 0rem 1rem;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* ---Right navbar part--- */
+
+.navbar-right {
+    width: 16.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bars {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yt-logo {
+    width: 7.5rem;
+    height: 3.5rem;
+    padding: 1.125rem 0.875rem 1.125rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yt-logo img {
+    width: 5.625rem;
+}
+
+/* ---Center navbar part--- */
+
+.navbar-center {
+    width: 45.75rem;
+    height: 2.5rem;
+    display: flex;
+}
+
+.searchbox {
+    width: 40rem;
+    height: 2.5rem;
+    display: flex;
+}
+
+.searchbox form {
+    width: 35.5rem;
+    height: 2.5rem;
+}
+
+.search {
+    width: 33.5rem;
+    height: 2.5rem;
+    background-color: #ffffff;
+    margin: 0rem 0rem 0rem 2rem;
+    padding: 0rem 0.25rem 0rem 1rem;
+    border: 0.125px solid rgb(128,128,128, 0.5);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.search input {
+    width: 32.188rem;
+    height: 1.625rem;
+    font-family: "roboto";
+    font-size: 1rem;
+    padding: 1px 0px;
+    border-style: none;
+}
+
+.search-icon {
+    width: 4rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border: 0.125px solid rgb(128,128,128, 0.5);
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+    color: black;
+    background-color: #f8f8f8;
+}
+
+.voice-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voice-btn i {
+    font-size: 1.2rem;
+}
+
+/* ---Left navbar part--- */
+
+.navbar-left {
+    width: 14rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.create {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-style: none;
+    background-color: transparent;
+}
+
+.create i {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.bell-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-style: none;
+    background-color: transparent;
+}
+
+.bell-icon i {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.avatar {
+    width: 3.75rem;
+    height: 2.125rem;
+    padding: 1px 6px;
+    border-style: none;
+    background-color: transparent;
+}
+
+.avatar i {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* ---This is menu-items--- */
+
+.menu-options {
+    width: 4rem;
+    height: 100vh;
+    margin-top: -3.5rem !important;
+    margin: 0.5rem 0.25rem 0rem;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.menu-options-items {
+    width: 4rem;
+    height: 4.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 0.875rem;
+}
+
+.menu-options-items-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-options-items-icon i {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.menu-options-items-icon span {
+    font-size: 0.625rem;
+    color: #0f0f0f;
+    font-family: "roboto";
+}
+
+.shorts {
+    width: 4rem;
+    height: 4.625rem;
+    padding: 1rem 0rem 0.875rem;
+}
+
+.subscriptions {
+    width: 4rem;
+    height: 4.625rem;
+    padding: 1rem 0rem 0.875rem;
+}
+
+.library {
+    width: 4rem;
+    height: 4.625rem;
+    padding: 1rem 0rem 0.875rem;
+}
+
+/* ---This is suggestion-bar--- */
+
+.suggestions {
+    width: 95%;
+    height: 3.5rem;
+    margin-left: 4.25rem;
+    margin-top: 3.5rem;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    font-family: "roboto";
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-around
+}
+
+.all {
+    width: 2.5rem;
+    height: 2rem;
+    font-size: 14px;
+    font-family: "roboto";
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #0f0f0f;
+    margin: 12px 12px 12px 24px;
+    padding: 0px 12px;
+}
+
+.mixes {
+    width: auto;
+    height: 2rem;
+    color: #0f0f0f;
+    display: flex;
+    font-size: 14px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 12px 12px 0px;
+    padding: 0px 12px;
+}
+
+/* ---This is Page Content--- */
+
+.page-content {
+    width: auto;
+    height: auto;
+    margin-top: 7rem;
+    margin-left: 4.25rem;
+    padding-top: 24px;
+}
+
+.row {
+    width: 100%;
+    height: 21.125rem;
+}
+
+.row-content {
+    width: 97.5%;
+    height: 21.125rem;
+    margin: 0px 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.yt-video {
+    width: 30%;
+    height: 21.125rem;
+}
+.yt-video iframe {
+    width: 100%;
+    height: 12.375rem;
+    border-radius: 0.5rem;
+}
+
+.video-description {
+    height: 6.25rem;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.video-description a {
+    height: 36px;
+    width: 36px;
+    margin-right: 1rem;
+}
+
+.video-description a img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.description {
+    color: white;
+}
+
+.description h4 {
+    color: #0f0f0f;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.description p {
+    margin-top: 4px;
+    color: #606060;
+    font-family: "roboto";
+}
+
+.description h6 {
+    margin-top: 4px;
+    color: #606060;
+    font-family: "roboto";
+    font-size: 0.75rem;
+    font-weight: normal;
+}

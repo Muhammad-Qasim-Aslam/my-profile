@@ -1,0 +1,37 @@
+.form img {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 50%;
+}
+
+.main {
+    background-color: #612bbd;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+table tr td input {
+    border-style: none;
+    padding: 3px;
+}
+
+table tr td {
+    padding: 5px;
+}
+
+form {
+    width: 100%;
+}
+
+.form center {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}

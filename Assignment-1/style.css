@@ -1,0 +1,32 @@
+p {
+    font-family: "poppins";
+    color: white;
+}
+
+p b {
+    color: #f686bd;
+}
+
+h1 {
+    font-family: "poppins";
+    color: #c9184a;
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+a {
+    font-family: "poppins";
+    color: #fb6f92;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
